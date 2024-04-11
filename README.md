@@ -22,6 +22,7 @@ while True:
  msg=input("Client > ")
  s.send(msg.encode())
  print("Server > ",s.recv(1024).decode())
+
 ```
 ## SERVER:
 ```
